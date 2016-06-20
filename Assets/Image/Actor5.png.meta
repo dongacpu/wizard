@@ -1,0 +1,1901 @@
+fileFormatVersion: 2
+guid: 9816985531e795e4ba84b5eff6a3f59a
+timeCreated: 1466338591
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Actor5_0
+    21300002: Actor5_1
+    21300004: Actor5_2
+    21300006: Actor5_3
+    21300008: Actor5_4
+    21300010: Actor5_5
+    21300012: Actor5_6
+    21300014: Actor5_7
+    21300016: Actor5_8
+    21300018: Actor5_9
+    21300020: Actor5_10
+    21300022: Actor5_11
+    21300024: Actor5_12
+    21300026: Actor5_13
+    21300028: Actor5_14
+    21300030: Actor5_15
+    21300032: Actor5_16
+    21300034: Actor5_17
+    21300036: Actor5_18
+    21300038: Actor5_19
+    21300040: Actor5_20
+    21300042: Actor5_21
+    21300044: Actor5_22
+    21300046: Actor5_23
+    21300048: Actor5_24
+    21300050: Actor5_25
+    21300052: Actor5_26
+    21300054: Actor5_27
+    21300056: Actor5_28
+    21300058: Actor5_29
+    21300060: Actor5_30
+    21300062: Actor5_31
+    21300064: Actor5_32
+    21300066: Actor5_33
+    21300068: Actor5_34
+    21300070: Actor5_35
+    21300072: Actor5_36
+    21300074: Actor5_37
+    21300076: Actor5_38
+    21300078: Actor5_39
+    21300080: Actor5_40
+    21300082: Actor5_41
+    21300084: Actor5_42
+    21300086: Actor5_43
+    21300088: Actor5_44
+    21300090: Actor5_45
+    21300092: Actor5_46
+    21300094: Actor5_47
+    21300096: Actor5_48
+    21300098: Actor5_49
+    21300100: Actor5_50
+    21300102: Actor5_51
+    21300104: Actor5_52
+    21300106: Actor5_53
+    21300108: Actor5_54
+    21300110: Actor5_55
+    21300112: Actor5_56
+    21300114: Actor5_57
+    21300116: Actor5_58
+    21300118: Actor5_59
+    21300120: Actor5_60
+    21300122: Actor5_61
+    21300124: Actor5_62
+    21300126: Actor5_63
+    21300128: Actor5_64
+    21300130: Actor5_65
+    21300132: Actor5_66
+    21300134: Actor5_67
+    21300136: Actor5_68
+    21300138: Actor5_69
+    21300140: Actor5_70
+    21300142: Actor5_71
+    21300144: Actor5_72
+    21300146: Actor5_73
+    21300148: Actor5_74
+    21300150: Actor5_75
+    21300152: Actor5_76
+    21300154: Actor5_77
+    21300156: Actor5_78
+    21300158: Actor5_79
+    21300160: Actor5_80
+    21300162: Actor5_81
+    21300164: Actor5_82
+    21300166: Actor5_83
+    21300168: Actor5_84
+    21300170: Actor5_85
+    21300172: Actor5_86
+    21300174: Actor5_87
+    21300176: Actor5_88
+    21300178: Actor5_89
+    21300180: Actor5_90
+    21300182: Actor5_91
+    21300184: Actor5_92
+    21300186: Actor5_93
+    21300188: Actor5_94
+    21300190: Actor5_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Actor5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 10}
+        - {x: 14, y: 16}
+    - name: Actor5_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 9}
+    - name: Actor5_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 10}
+        - {x: 14, y: 16}
+        - {x: -16, y: 16}
+        - {x: -16, y: -14}
+    - name: Actor5_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -15}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: Actor5_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -15, y: 15}
+        - {x: -15, y: -11}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: 12}
+        - {x: 12, y: 16}
+    - name: Actor5_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: -10}
+        - {x: -14, y: -14}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 10}
+        - {x: 11, y: 16}
+    - name: Actor5_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 14}
+        - {x: -16, y: 2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+    - name: Actor5_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -14, y: 16}
+        - {x: -16, y: -4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 14, y: 14}
+    - name: Actor5_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -14, y: 15}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 15, y: 14}
+    - name: Actor5_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 16}
+    - name: Actor5_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Actor5_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 11}
+        - {x: 12, y: 16}
+    - name: Actor5_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: 8}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 13}
+        - {x: 10, y: 16}
+    - name: Actor5_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: 3}
+        - {x: -10, y: -10}
+        - {x: -5, y: -16}
+        - {x: 5, y: -16}
+        - {x: 13, y: -7}
+        - {x: 13, y: 16}
+    - name: Actor5_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 14}
+        - {x: -15, y: 5}
+        - {x: -13, y: -11}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 16}
+    - name: Actor5_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: 1}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 2}
+        - {x: 15, y: 11}
+    - name: Actor5_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -12}
+        - {x: 13, y: -12}
+        - {x: 15, y: -9}
+        - {x: 15, y: 12}
+        - {x: 13, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: 4}
+        - {x: -12, y: -2}
+        - {x: -8, y: -13}
+        - {x: -5, y: -16}
+        - {x: 5, y: -16}
+        - {x: 9, y: -11}
+        - {x: 9, y: -6}
+        - {x: 9, y: -10}
+    - name: Actor5_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -15}
+        - {x: -12, y: -16}
+        - {x: 7, y: -16}
+        - {x: 14, y: -12}
+        - {x: 14, y: 16}
+    - name: Actor5_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: 9}
+        - {x: -12, y: -10}
+        - {x: -7, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 0}
+        - {x: 13, y: 8}
+    - name: Actor5_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -14, y: 16}
+        - {x: -15, y: 15}
+        - {x: -15, y: 1}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 10}
+    - name: Actor5_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 1}
+        - {x: 13, y: 8}
+    - name: Actor5_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: 4}
+        - {x: -12, y: -3}
+        - {x: -7, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -6}
+        - {x: 14, y: 9}
+    - name: Actor5_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 7}
+        - {x: 8, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: 4}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 8, y: -12}
+        - {x: 9, y: -9}
+        - {x: 14, y: 3}
+    - name: Actor5_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 13}
+        - {x: 8, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: -15}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -14}
+        - {x: 14, y: 3}
+        - {x: 13, y: 7}
+    - name: Actor5_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: 4}
+        - {x: 15, y: 13}
+    - name: Actor5_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -5}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 15, y: 3}
+        - {x: 15, y: 16}
+    - name: Actor5_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -6}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -10}
+        - {x: 15, y: 16}
+    - name: Actor5_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: 4}
+        - {x: 13, y: 13}
+        - {x: 11, y: 16}
+    - name: Actor5_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 12}
+        - {x: -15, y: -15}
+        - {x: -12, y: -16}
+        - {x: 8, y: -16}
+        - {x: 13, y: -2}
+        - {x: 13, y: 16}
+    - name: Actor5_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -13, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -10}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 12, y: -12}
+        - {x: 13, y: -2}
+        - {x: 13, y: 13}
+    - name: Actor5_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -13}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -3}
+        - {x: 15, y: 16}
+    - name: Actor5_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 15}
+        - {x: -14, y: 6}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -11}
+        - {x: 15, y: 16}
+    - name: Actor5_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 9}
+        - {x: -15, y: 2}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+    - name: Actor5_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -14, y: 8}
+        - {x: -14, y: 3}
+        - {x: -9, y: -15}
+        - {x: -8, y: -16}
+        - {x: 8, y: -16}
+        - {x: 14, y: -1}
+        - {x: 14, y: 15}
+        - {x: 13, y: 16}
+    - name: Actor5_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 8}
+        - {x: -14, y: -6}
+        - {x: -11, y: -15}
+        - {x: -7, y: -16}
+        - {x: 8, y: -16}
+        - {x: 14, y: 0}
+        - {x: 14, y: 16}
+    - name: Actor5_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 9}
+        - {x: -14, y: -6}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 11, y: -13}
+        - {x: 14, y: 3}
+        - {x: 14, y: 16}
+    - name: Actor5_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 13}
+        - {x: -14, y: -9}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 16}
+    - name: Actor5_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -8}
+        - {x: -10, y: -13}
+        - {x: -7, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 16}
+    - name: Actor5_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 11}
+        - {x: -14, y: -13}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 16}
+    - name: Actor5_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -12}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -13}
+        - {x: 16, y: -6}
+        - {x: 16, y: 13}
+    - name: Actor5_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -14, y: 6}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Actor5_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -9, y: 16}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 15}
+    - name: Actor5_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: -2}
+        - {x: -16, y: -13}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 0}
+        - {x: 15, y: 10}
+    - name: Actor5_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 13, y: 16}
+        - {x: -11, y: 16}
+        - {x: -15, y: 15}
+    - name: Actor5_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -13, y: 9}
+        - {x: -16, y: -8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 10, y: 16}
+    - name: Actor5_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -14}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
+    - name: Actor5_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
+    - name: Actor5_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: Actor5_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -1}
+        - {x: -16, y: -15}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 14, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 7}
+    - name: Actor5_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 15, y: 7}
+        - {x: 10, y: 16}
+    - name: Actor5_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -8, y: 16}
+        - {x: -12, y: 15}
+        - {x: -16, y: 1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+    - name: Actor5_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -15}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 11}
+        - {x: 10, y: 16}
+    - name: Actor5_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 5}
+        - {x: 12, y: 16}
+    - name: Actor5_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -14, y: 12}
+        - {x: -14, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 11}
+        - {x: 10, y: 16}
+    - name: Actor5_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 9, y: 16}
+    - name: Actor5_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 14, y: 6}
+        - {x: 11, y: 16}
+    - name: Actor5_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -16, y: 6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 10, y: 16}
+    - name: Actor5_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -14, y: 13}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 12}
+        - {x: 12, y: 16}
+    - name: Actor5_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 16}
+    - name: Actor5_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 11}
+        - {x: -14, y: -8}
+        - {x: -13, y: -15}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 14}
+        - {x: 12, y: 16}
+    - name: Actor5_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: 0}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -15}
+        - {x: 15, y: 7}
+        - {x: 13, y: 15}
+    - name: Actor5_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 10}
+        - {x: 9, y: 16}
+    - name: Actor5_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 6}
+        - {x: 9, y: 16}
+        - {x: -10, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -5}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -12}
+        - {x: 15, y: -8}
+    - name: Actor5_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -2}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -11}
+        - {x: 15, y: 16}
+    - name: Actor5_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: 2}
+        - {x: -10, y: -14}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 13, y: -14}
+        - {x: 13, y: 16}
+    - name: Actor5_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 13}
+        - {x: -13, y: -4}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -8}
+        - {x: 15, y: 7}
+        - {x: 10, y: 16}
+    - name: Actor5_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 0}
+        - {x: 12, y: 14}
+    - name: Actor5_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 14}
+        - {x: -13, y: -3}
+        - {x: -12, y: -14}
+        - {x: -10, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 7}
+        - {x: 9, y: 16}
+    - name: Actor5_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -11, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: -6}
+        - {x: 11, y: 13}
+    - name: Actor5_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -14, y: 12}
+        - {x: -14, y: -2}
+        - {x: -11, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: Actor5_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: 4}
+        - {x: -10, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: Actor5_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -14, y: 12}
+        - {x: -14, y: 4}
+        - {x: -10, y: -12}
+        - {x: -8, y: -16}
+        - {x: 14, y: -16}
+        - {x: 14, y: 16}
+    - name: Actor5_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -14, y: 7}
+        - {x: -15, y: 4}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -2}
+        - {x: 13, y: 11}
+        - {x: 9, y: 16}
+    - name: Actor5_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -3}
+        - {x: 13, y: 14}
+        - {x: 12, y: 16}
+    - name: Actor5_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 7}
+        - {x: -15, y: 0}
+        - {x: -15, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -14}
+        - {x: 13, y: 15}
+        - {x: 11, y: 16}
+    - name: Actor5_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -7}
+        - {x: -8, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: 3}
+        - {x: 13, y: 11}
+    - name: Actor5_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -12, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -6}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -13}
+        - {x: 13, y: 3}
+        - {x: 13, y: 15}
+    - name: Actor5_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -10, y: 16}
+        - {x: -14, y: 15}
+        - {x: -15, y: 9}
+        - {x: -15, y: -9}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 12, y: -12}
+        - {x: 13, y: -4}
+        - {x: 13, y: 11}
+    - name: Actor5_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -15, y: 11}
+        - {x: -15, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 16}
+    - name: Actor5_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -11, y: 14}
+        - {x: -14, y: 2}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 13, y: -15}
+        - {x: 13, y: 14}
+        - {x: 11, y: 16}
+    - name: Actor5_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -15, y: 13}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 16}
+    - name: Actor5_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -13, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -13}
+        - {x: -12, y: -16}
+        - {x: 9, y: -16}
+        - {x: 12, y: -9}
+        - {x: 15, y: 2}
+        - {x: 15, y: 9}
+    - name: Actor5_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -15}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 16}
+    - name: Actor5_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -1}
+        - {x: 15, y: 11}
+        - {x: 11, y: 16}
+    - name: Actor5_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 14, y: 15}
+    - name: Actor5_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 8}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 3}
+        - {x: 15, y: 7}
+        - {x: 10, y: 16}
+    - name: Actor5_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 14, y: 15}
+    - name: Actor5_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 16}
+        - {x: -13, y: 16}
+        - {x: -13, y: -13}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 9}
+        - {x: 14, y: 14}
+    - name: Actor5_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 5}
+        - {x: 12, y: 16}
+    - name: Actor5_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -14, y: 10}
+        - {x: -14, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -15}
+        - {x: 14, y: 15}
+        - {x: 10, y: 16}
+    - name: Actor5_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 5}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 15, y: 14}
+        - {x: 12, y: 16}
+        - {x: -9, y: 16}
+        - {x: -15, y: 14}
+    - name: Actor5_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 11}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 2}
+        - {x: 14, y: 14}
+        - {x: 12, y: 16}
+        - {x: -10, y: 16}
+        - {x: -15, y: 14}
+    - name: Actor5_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 13}
+        - {x: -16, y: 2}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 14}
+        - {x: 11, y: 16}
+    - name: Actor5_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -13}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 16}
+    - name: Actor5_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -14, y: 14}
+        - {x: -14, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 11}
+        - {x: 9, y: 16}
+    - name: Actor5_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -14, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -14}
+        - {x: 15, y: 13}
+        - {x: 13, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
