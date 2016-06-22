@@ -1178,7 +1178,7 @@ RectTransform:
   - {fileID: 2070667827}
   - {fileID: 1420428401}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1453,7 +1453,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &1877087417
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,7 +1583,35 @@ MonoBehaviour:
   ani: {fileID: 1877087418}
   rigid: {fileID: 1877087423}
   jump_force: 1500
-  bullet: {fileID: 2052180912}
+--- !u!1 &1929264809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1929264810}
+  m_Layer: 0
+  m_Name: magic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1929264810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929264809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2052180913}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &2001629343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +1781,7 @@ GameObject:
   - 212: {fileID: 2052180914}
   - 114: {fileID: 2052180915}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1765,13 +1793,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2052180912}
-  m_LocalRotation: {x: 0, y: 0, z: 0.943033, w: 0.33269936}
-  m_LocalPosition: {x: 3, y: 0, z: 100}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -218.86539}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1929264810}
+  m_RootOrder: 0
 --- !u!212 &2052180914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1813,6 +1841,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b5ff592f8227234098bf4f238ad2b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setposition: {x: 1, y: 0, z: 0}
+  player: {fileID: 1877087417}
+  velocity: 0.5
+  time: 0.5
 --- !u!1 &2070667826
 GameObject:
   m_ObjectHideFlags: 0

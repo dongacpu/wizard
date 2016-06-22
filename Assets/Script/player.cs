@@ -3,26 +3,25 @@ using System.Collections;
 using UnityEngine.UI;
 public class player : MonoBehaviour {
 
-    public GameObject cam;
-    public float mp;
-    float mp_max;
-    public float hp;
-    float hp_max;
-    bool hp_remain;
-    bool died = false;
-    public bool hit_check = false;
-    public SpriteRenderer image_this;
-    bool up = false;
-    float num=1f;
-    public Slider hpbar;
-    public Slider mpbar;
-    public float move;
-    public Animator ani;
-    public Rigidbody rigid;
-    public float jump_force;
-    bool jump_check = true;
-    public GameObject bullet;
-    public enum ANI_STATE
+    public GameObject cam;      // 카메라
+    public float mp;        // 현재 마나
+    float mp_max;       // 최대 마나
+    public float hp;        // 현재 체력
+    float hp_max;       // 최대 채력
+    bool hp_remain;     // 체력이 남아 있는지 확인
+    bool died = false;      // 죽었는지 확인
+    public bool hit_check = false;      // 맞았는지 확인
+    public SpriteRenderer image_this;       // 플레이어의 이미지
+    bool up = false;        // 히트 이펙트 체크 
+    float num=1f;       // 히트 이펙트용 변수
+    public Slider hpbar;        // 체력ui
+    public Slider mpbar;        // 마나 ui
+    public float move;      // 이동 속도
+    public Animator ani;        // 플레이어 애니메이션
+    public Rigidbody rigid;     // 플레이어 리지드바디
+    public float jump_force;        // 점프 크기
+    bool jump_check = true;     // 점프중인지 확인
+    public enum ANI_STATE       // 플레이어 애니메이션 상태
     {
         stay,
         right,
@@ -52,7 +51,7 @@ public class player : MonoBehaviour {
             if (mp > 0)
             {
                 mp -= 10;
-                StartCoroutine("magic");
+                magic("fireball");
             }
         }
         if (Input.GetKeyDown(KeyCode.Space) && jump_check)
@@ -110,14 +109,9 @@ public class player : MonoBehaviour {
             jump_check = true;
         }
     }
-    IEnumerator magic()
+    void magic(string magic_name)
     {
-        bullet.transform.localPosition = new Vector3(this.gameObject.transform.position.x + 3, 0, 10);
-        bullet.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        bullet.transform.localPosition = new Vector3(this.gameObject.transform.position.x + 3, 0, 10);
-        bullet.SetActive(false);
-
+        GameObject.Find("magic").transform.FindChild(magic_name).gameObject.SetActive(true);
     }
     IEnumerator hit()
     {
