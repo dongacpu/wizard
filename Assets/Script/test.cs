@@ -46,21 +46,5 @@ public class test : MonoBehaviour {
         else if (AS == ANI_STATE.stay)
             ani.Play("New Animation");
     }
-    void OnCollisionEnter(Collision other)
-    {
-       
-        if (other.collider.tag == "ground")
-        {
-           
-            jump_check = true;
-        }
-    }
-    IEnumerator magic()
-    {
-        bullet.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        bullet.transform.localPosition= new Vector3(this.gameObject.transform.position.x+3, 0, 10);
-        bullet.SetActive(false);
-        
-    }
+   
 }
