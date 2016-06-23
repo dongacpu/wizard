@@ -65,7 +65,6 @@ public class player : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Space) && jump_check)
             {
                 jump_check = false;
-                Debug.Log("das");
                 rigid.AddForce(Vector2.up * jump_force, ForceMode2D.Impulse);
             }
         }
