@@ -18,14 +18,17 @@ public class player : MonoBehaviour {
     public Slider mpbar;        // 마나 ui
     public float move;      // 이동 속도
     public Animator ani;        // 플레이어 애니메이션
-    public Rigidbody rigid;     // 플레이어 리지드바디
+    public Rigidbody2D rigid;     // 플레이어 리지드바디
     public float jump_force;        // 점프 크기
     bool jump_check = true;     // 점프중인지 확인
-    public bool direction = false;     // 방향 체크 false = 왼쪽     
+    public bool direction = true;     // 방향 체크 false = 왼쪽 
+    public bool magic_check=true;        // 마법 사용중 체크 
+    public bool grounded = false;      // 땅에있는지 확인   
+    public Transform groundcheck;
     public enum ANI_STATE       // 플레이어 애니메이션 상태
-    {
-        stay_left,
+    { 
         stay_right,
+        stay_left,
         right,
         left
     };
@@ -35,9 +38,10 @@ public class player : MonoBehaviour {
         hp_max = hp;
         mp_max = mp;
 	}
-  
 
-	void Update () {
+    void FixedUpdate() {
+
+        
         if (Input.GetKey(KeyCode.RightArrow))
         {
             this.gameObject.transform.Translate(move, 0, 0);
@@ -50,20 +54,29 @@ public class player : MonoBehaviour {
             AS = ANI_STATE.left;
             direction = false;
         }
-       
 
+
+    }
+
+    void Update () {
+        grounded = (Physics2D.OverlapPoint(groundcheck.position) != null) ? true : false;
+        if (grounded)
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && jump_check)
+            {
+                jump_check = false;
+                Debug.Log("das");
+                rigid.AddForce(Vector2.up * jump_force, ForceMode2D.Impulse);
+            }
+        }
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (mp > 0)
+            if (mp > 0&&magic_check)
             {
+                magic_check = false;
                 mp -= 10;
                 magic("fireball");
             }
-        }
-        if (Input.GetKeyDown(KeyCode.Space) && jump_check)
-        {
-            jump_check = false;
-            rigid.AddForce(Vector3.up * jump_force, ForceMode.Impulse);
         }
 
         if (Input.GetKeyUp(KeyCode.RightArrow))
@@ -111,12 +124,11 @@ public class player : MonoBehaviour {
         mpbar.value = mp / mp_max;
         cam.gameObject.transform.position = Vector3.Lerp(cam.gameObject.transform.position, new Vector3(transform.position.x,transform.position.y,-10), Time.timeScale*0.05f);
 	}
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
-
         if (other.collider.tag == "ground")
         {
-
+           
             jump_check = true;
         }
     }
