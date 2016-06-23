@@ -21,9 +21,11 @@ public class player : MonoBehaviour {
     public Rigidbody rigid;     // 플레이어 리지드바디
     public float jump_force;        // 점프 크기
     bool jump_check = true;     // 점프중인지 확인
+    public bool direction = false;     // 방향 체크 false = 왼쪽     
     public enum ANI_STATE       // 플레이어 애니메이션 상태
     {
-        stay,
+        stay_left,
+        stay_right,
         right,
         left
     };
@@ -40,12 +42,16 @@ public class player : MonoBehaviour {
         {
             this.gameObject.transform.Translate(move, 0, 0);
             AS = ANI_STATE.right;
+            direction = true;
         }
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
             this.gameObject.transform.Translate(-move, 0, 0);
             AS = ANI_STATE.left;
+            direction = false;
         }
+       
+
         if (Input.GetKeyDown(KeyCode.Z))
         {
             if (mp > 0)
@@ -60,14 +66,19 @@ public class player : MonoBehaviour {
             rigid.AddForce(Vector3.up * jump_force, ForceMode.Impulse);
         }
 
-        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.LeftArrow))
-            AS = ANI_STATE.stay;
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+            AS = ANI_STATE.stay_right;
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+            AS = ANI_STATE.stay_left;
         if (AS == ANI_STATE.left)
             ani.Play("test_left");
         else if (AS == ANI_STATE.right)
             ani.Play("test_right");
-        else if (AS == ANI_STATE.stay)
-            ani.Play("New Animation");
+        else if (AS == ANI_STATE.stay_right)
+            ani.Play("right_stay");
+        else if (AS == ANI_STATE.stay_left)
+            ani.Play("left_stay");
+
         if (hp > 0)
             hp_remain = true;
         else

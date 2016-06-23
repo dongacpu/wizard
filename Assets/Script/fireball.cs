@@ -12,22 +12,29 @@ public class fireball : MonoBehaviour,magic {
     public GameObject player;
     public float velocity;
     public float time;
+    public player p;
 
-    void Awake()
-    {
 
-    }
     void OnEnable()
     {
-        this.transform.localPosition = new Vector3(player.transform.position.x+setposition.x,player.transform.position.y+setposition.y,player.transform.position.z+setposition.z);
+        if (p.direction)
+            this.transform.localPosition = new Vector3(player.transform.position.x + setposition.x, player.transform.position.y + setposition.y, player.transform.position.z + setposition.z);
+        else
+        {
+            this.transform.localPosition = new Vector3(player.transform.position.x - setposition.x, player.transform.position.y + setposition.y, player.transform.position.z + setposition.z);
+            this.transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
         StartCoroutine("wait");
     }
 	void Update () {
         if(this)
-        move();
+            move();
 	}
     public void move() {
-        this.gameObject.transform.Translate(velocity,0,0);
+        if(p.direction)
+              this.gameObject.transform.Translate(velocity,0,0);
+      /*  else
+            this.gameObject.transform.Translate(-velocity, 0, 0);*/
     }
     IEnumerator wait()
     {
