@@ -119,8 +119,8 @@ public class player : MonoBehaviour {
         else
             image_this.color = new Color(1, 1, 1, 1);
 
-        hpbar.value = hp / hp_max;
-        mpbar.value = mp / mp_max;
+      //  hpbar.value = hp / hp_max;
+       // mpbar.value = mp / mp_max;
         cam.gameObject.transform.position = Vector3.Lerp(cam.gameObject.transform.position, new Vector3(transform.position.x,transform.position.y,-10), Time.timeScale*0.05f);
 	}
     void OnCollisionEnter2D(Collision2D other)

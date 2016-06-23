@@ -11,17 +11,13 @@ public class enemy : MonoBehaviour
     bool direction = false; // 방향 체크 false = 왼쪽  
     public fireball magic;
 
-    // Use this for initialization
     void Start()
     {
         hp = 0.5f;
         move = 0.1f;
         turn = 0;
         magic = GameObject.Find("magic").transform.FindChild("fireball").GetComponent<fireball>();
-       // magic = GameObject.Find("fireball").GetComponent<fireball>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (direction)
